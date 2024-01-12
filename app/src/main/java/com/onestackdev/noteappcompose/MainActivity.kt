@@ -9,17 +9,12 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
-import androidx.compose.runtime.mutableStateListOf
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import androidx.lifecycle.viewmodel.compose.viewModel
-import com.onestackdev.noteappcompose.data.NotesDataSource
-import com.onestackdev.noteappcompose.model.Note
 import com.onestackdev.noteappcompose.screens.NoteScreen
 import com.onestackdev.noteappcompose.screens.NoteViewModel
 import com.onestackdev.noteappcompose.ui.theme.NoteAppComposeTheme
 import dagger.hilt.android.AndroidEntryPoint
-import androidx.compose.runtime.remember as remember1
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
